@@ -1,7 +1,7 @@
 /* shared style */
 
 *{
-    margin: 0;
+    margin:0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -15,6 +15,16 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
  
+}
+.first-half{
+    max-width: 1600px;
+      
+     background: url("/images/developer.png"), url("/images/header_bg.png"), #FFF8F3;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    
+
+
 }
 .logo h2{
     font-size: 45px;
@@ -35,7 +45,21 @@
    border-radius: 5px;
    cursor: pointer;
 }
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+     color: #757575;
+     margin: 0 auto;
+}
+.section-heading h2{
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: black;
 
+}
    
 
  /*main style */
@@ -43,14 +67,10 @@
  .font-open-sans header{
   
     
-    padding-top: 50px;
-     max-width: 1600px;
+    /* padding-top: 50px; */
+     
     /* max-height: 837px; */
-    background: url("/images/developer.png"), url("/images/header_bg.png"), #FFF8F3;
-    background-position: top left, bottom right;
-    background-repeat: no-repeat;
-    
-
+   
     
    
 }
@@ -78,7 +98,8 @@ nav a{
 
 #banner{
     /* border: 1px solid red; */
-    margin: 47px 2px 0 230px;
+    max-width: 1370px;
+    margin: 46px 2px 0 230px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -114,4 +135,78 @@ nav a{
     max-width: 584px;
     vertical-align: middle;
    
+}
+#about{
+    padding-top: 130px;
+}
+#about .about-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+}
+#about .about-container #about-info{
+    display: flex ;
+    justify-content: space-around;
+
+
+}
+#about-info p{
+
+    font-size: 20px;
+    color: #757575;
+    /* margin-bottom: ; */
+     line-height: 30px;
+     margin-top: 30px;
+
+}
+#about-info h4{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+
+}
+#skills{
+    padding-top: 130px;
+
+}
+ .skill-container{
+    width: 71%;
+    max-width: 1140px;
+    text-align: center;
+    margin: 0 auto;
+}
+.skill-box{
+    display: flex;
+    gap: 24px;
+    text-align: left;
+    margin-top: 50px;
+
+}
+.skill-box .skill-card{
+    max-width: 267px;
+    padding: 30px 33px 30px 30px;
+    /* border: 1px solid red; */
+    box-shadow: 0 6px 50px 0 #00000013;
+
+}
+.skill-box img{
+   margin-bottom: 30px;
+    max-width: 44px;
+    /* color: #8CC84B; */
+
+}
+.skill-box h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.skill-box p{
+    max-width: 201px;
+    font-size: 16px;
+    color: #757575;
+    /* margin-top: 20px; */
 }
