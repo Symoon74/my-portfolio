@@ -5,15 +5,11 @@
     padding: 0;
     box-sizing: border-box;
 }
- body{ 
-    max-width: 1600px;
-    max-height: 837px;
-    background: url("/images/developer.png"), url("/images/header_bg.png"), #FFF8F3;
-    background-position: top left, bottom right;
-    background-repeat: no-repeat;
+
+   
    
     
-}
+
 .font-open-sans{
    
   font-family: "Open Sans", sans-serif;
@@ -48,6 +44,11 @@
   
     
     padding-top: 50px;
+     max-width: 1600px;
+    /* max-height: 837px; */
+    background: url("/images/developer.png"), url("/images/header_bg.png"), #FFF8F3;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
     
 
     
