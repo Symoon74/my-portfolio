@@ -20,7 +20,7 @@
     max-width: 1600px;
       
      background: url("/images/developer.png"), url("/images/header_bg.png"), #FFF8F3;
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom right;
     background-repeat: no-repeat;
     
 
@@ -82,6 +82,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 50px;
 }
 nav .menu{
     display: flex;
@@ -99,7 +100,7 @@ nav a{
 #banner{
     /* border: 1px solid red; */
     max-width: 1370px;
-    margin: 46px 2px 0 230px;
+    margin: 46px 38px 0 230px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -137,16 +138,28 @@ nav a{
    
 }
 #about{
-    padding-top: 130px;
+    width: 71%;
+     max-width: 1140px;
+    margin-top: 130px;
+    margin-left: 230px;
 }
 #about .about-container{
-    width: 71%;
-    max-width: 1140px;
+    
     margin: 0 auto;
     text-align: center;
     background-color: #FFF8F3;
     padding: 131px 156px;
 }
+.about-container p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+
+}
+    .about-container h2{
+        font-size: 35px;
+    }
+
 #about .about-container #about-info{
     display: flex ;
     justify-content: space-around;
@@ -177,6 +190,13 @@ nav a{
     max-width: 1140px;
     text-align: center;
     margin: 0 auto;
+}
+.section-heading p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    
+    
 }
 .skill-box{
     display: flex;
@@ -209,4 +229,92 @@ nav a{
     font-size: 16px;
     color: #757575;
     /* margin-top: 20px; */
+}
+
+#resume{
+    margin-top: 130px;
+}
+.section-heading{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+
+}
+.resume-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 50px;
+    display: flex;
+    gap: 24px;
+}
+.resume-container hr{
+    margin: 30px 0;
+}
+   .edx{
+    max-width: 218px;
+    /* font-weight: bold; */
+    font-size: 29px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.text-center{
+    text-align: center;
+}
+footer {
+    margin-top: 112px;
+    padding: 130px 0;
+    background-color: #FFF8F3;
+}
+footer .footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 117px;
+}
+.footer-container h2{
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.footer-container .social{
+  max-width: 562px;
+}
+.social p{
+    font-size: 16px;
+    line-height: 30px;
+    color: #474747;
+     margin-bottom: 30px;
+    
+
+}
+.social .footer-img{
+    max-width: 150 px;
+   
+}
+.footer-img a{
+ margin-right: 24px;
+}
+ /* .form .contact-form { */
+    
+    /* width: 461px; */
+    
+
+.footer-container .contact-form input[type="text"]{
+    width: 461px;
+    margin-bottom: 24px;
+    padding: 18px 30px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+}
+.footer-container .contact-form textarea{
+    
+ width: 461px;
+    margin-bottom: 24px;
+    padding: 18px 365px 134px 30px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+
 }
